@@ -59,7 +59,7 @@ function start() {
               {product_id: response[whatToBuy].product_id}
               ], function(err, response){
                   if(err) throw err;
-                  console.log("Success! Your total is $" + grandTotal + ". Your item(s) will be shipped to you in 3-5 business days.");
+                  console.log("\nSuccess! Your total is $" + grandTotal + ". Your item(s) will be shipped to you in 2 days.\n");
                reprompt();
             });
 
@@ -77,7 +77,7 @@ var reprompt = function(){
     inquirer.prompt([{
       type: "list",
       name: "reply",
-      message: "Would you like to purchase another item?",
+      message: "Would you like to purchase another item?\n",
       choices: ["Y", "N"]
     }]).then(function(ans){
       if(ans.reply==="Y"){
