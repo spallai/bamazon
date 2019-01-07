@@ -1,3 +1,5 @@
+Screenshots of working app: https://drive.google.com/drive/folders/1VZNqMNfkwU9T7cThIGwqQxw6l9hNaNM3?usp=sharing
+
 # bamazon
 
 1. Create a MySQL Database called `bamazon`.
